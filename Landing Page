@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #fc466b, #3f5efb);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .hero p {
+      margin: 20px 0;
+    }
+    .buttons button {
+      margin: 10px;
+      padding: 10px 20px;
+      border: none;
+      color: white;
+      background-color: #ff4081;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .section-boxes {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+      background: linear-gradient(to right, #f7971e, #ffd200);
+      color: white;
+    }
+    .section-boxes div {
+      text-align: center;
+    }
+    .about, .services {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .services-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+    .service {
+      width: 30%;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .service img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><i class="fa-solid fa-code"></i> LANDING PAGE</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">Page</a>
+      <a href="#">Services</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Creative Digital Agency</h1>
+    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    <div class="buttons">
+      <button>Read More</button>
+      <button>Request a Consult</button>
+    </div>
+  </section>
+
+  <section class="section-boxes">
+    <div>
+      <i class="fa-solid fa-rocket"></i>
+      <h3>Launch Business</h3>
+      <p>Lorem Ipsum has been the industry's standard dummy text.</p>
+    </div>
+    <div>
+      <i class="fa-solid fa-headset"></i>
+      <h3>Online Support Team</h3>
+      <p>Lorem Ipsum has been the industry's standard dummy text.</p>
+    </div>
+    <div>
+      <i class="fa-solid fa-clock"></i>
+      <h3>Time Management</h3>
+      <p>Lorem Ipsum has been the industry's standard dummy text.</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>15 years, we are passionate about achieving better results for our clients.<br>
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+    <button>Read More</button>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="https://images.unsplash.com/photo-1581090700227-1e8b2e68a7d9" alt="User Experience">
+        <h3>User Experience</h3>
+      </div>
+      <div class="service">
+        <img src="https://images.unsplash.com/photo-1580894732444-3d93379e3779" alt="Creative Design">
+        <h3>Creative Design</h3>
+      </div>
+      <div class="service">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" alt="Retina Ready">
+        <h3>Retina Ready</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
