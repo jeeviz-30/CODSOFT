@@ -1,0 +1,84 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+/* Fade and slide up animation */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animate hero heading */
+section:first-of-type h1 {
+  animation: fadeSlideUp 1.2s ease forwards;
+}
+
+/* Animate hero subtitle */
+section:first-of-type h4,
+section:first-of-type p {
+  animation: fadeSlideUp 1.5s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* Animate buttons with slight delay */
+section:first-of-type button {
+  opacity: 0;
+  animation: fadeSlideUp 1.5s ease forwards;
+  animation-delay: 0.7s;
+}
+
+/* Animate product cards with stagger */
+section:nth-of-type(5) > div > div {
+  opacity: 0;
+  animation: fadeSlideUp 1.2s ease forwards;
+}
+
+section:nth-of-type(5) > div > div:nth-child(1) {
+  animation-delay: 0.4s;
+}
+
+section:nth-of-type(5) > div > div:nth-child(2) {
+  animation-delay: 0.7s;
+}
+
+section:nth-of-type(5) > div > div:nth-child(3) {
+  animation-delay: 1s;
+}
+
+/* Animate testimonials cards with stagger */
+section:nth-of-type(6) > div > div {
+  opacity: 0;
+  animation: fadeSlideUp 1.2s ease forwards;
+}
+
+section:nth-of-type(6) > div > div:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+section:nth-of-type(6) > div > div:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+section:nth-of-type(6) > div > div:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+/* Animate footer */
+footer {
+  opacity: 0;
+  animation: fadeSlideUp 1.5s ease forwards;
+  animation-delay: 1.3s;
+}
+
