@@ -467,4 +467,212 @@ p {
   color: #666;
 }
 
+.hero-section {
+  position: relative;
+  padding: 150px 40px;
+  color: white;
+  text-align: center;
+  background: 
+    linear-gradient(
+      135deg, 
+      rgba(255, 192, 203, 0.7), 
+      rgba(255, 182, 193, 0.7)
+    ),
+    url('https://img.freepik.com/premium-photo/flat-lay-with-glamour-girls-accessories-pink-background_72402-440.jpg') no-repeat center center/cover;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
 
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    120deg, 
+    rgba(255, 255, 255, 0.15) 0%, 
+    rgba(255, 255, 255, 0.25) 50%, 
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  animation: shimmer 5s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+  transform: rotate(25deg);
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(25deg);
+  }
+}
+
+.hero-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h4 {
+  letter-spacing: 4px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 8px #ff79c6;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 15px #ff69b4, 0 0 20px #ff1493;
+}
+
+.hero-section p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-shadow: 0 0 6px #ff69b4;
+}
+
+.hero-buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  cursor: pointer;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.5);
+  background-clip: padding-box; /* prevent bleed of glow */
+  position: relative;
+  color: white;
+}
+
+.hero-btn.pink {
+  background: #ff69b4;
+  box-shadow: 0 0 12px #ff69b4;
+}
+
+.hero-btn.pink:hover {
+  background: #ff1493;
+  box-shadow: 0 0 20px #ff1493;
+  transform: scale(1.05);
+}
+
+.hero-btn.dark {
+  background: #333;
+  color: #ff69b4;
+  box-shadow: 0 0 8px #ff69b4;
+}
+
+.hero-btn.dark:hover {
+  background: #555;
+  color: #ff69b4;
+  box-shadow: 0 0 15px #ff69b4;
+  transform: scale(1.05);
+}
+.floating-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.floating-icons .icon {
+  position: absolute;
+  font-size: 24px;
+  opacity: 0.7;
+  animation: float 10s infinite ease-in-out;
+}
+
+.floating-icons .icon:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.floating-icons .icon:nth-child(2) {
+  top: 5%;
+  left: 80%;
+  animation-delay: 2s;
+}
+
+.floating-icons .icon:nth-child(3) {
+  top: 70%;
+  left: 10%;
+  animation-delay: 4s;
+}
+
+.floating-icons .icon:nth-child(4) {
+  top: 5%;
+  left: 30%;
+  animation-delay: 6s;
+}
+
+.floating-icons .icon:nth-child(5) {
+  top: 60%;
+  left: 70%;
+  animation-delay: 8s;
+}
+.floating-icons .icon:nth-child(6) {
+  top: 10%;
+  left: 60%;
+  animation-delay: 1s;
+}
+
+.floating-icons .icon:nth-child(7) {
+  top: 85%;
+  left: 20%;
+  animation-delay: 3s;
+}
+
+.floating-icons .icon:nth-child(8) {
+  top: 50%;
+  left: 90%;
+  animation-delay: 5s;
+}
+
+.floating-icons .icon:nth-child(9) {
+  top: 80%;
+  left: 45%;
+  animation-delay: 7s;
+}
+
+.floating-icons .icon:nth-child(10) {
+  top: 85%;
+  right: 20%;
+  animation-delay: 9s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+}
