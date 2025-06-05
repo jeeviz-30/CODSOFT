@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <title>Landing Page</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Google Font for Creative Typography -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
@@ -23,34 +25,47 @@
     </div>
   </div>
 
-  <!-- Main navbar -->
-  <header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <div style="font-size: 20px; font-weight: bold;">
-      <img src="https://cdn-icons-png.flaticon.com/512/167/167707.png" alt="Logo" width="30" style="vertical-align: middle;">
-      LANDING PAGE
-    </div>
-    <nav style="flex: 1; text-align: center;">
-      <a href="#" style="margin: 0 15px; text-decoration: none; color: black;">Home</a>
-      <a href="#" style="margin: 0 15px; text-decoration: none; color: black;">Blog</a>
-      <a href="#" style="margin: 0 15px; text-decoration: none; color: black;">Page</a>
-      <a href="#" style="margin: 0 15px; text-decoration: none; color: black;">Services</a>
-      <a href="#" style="margin: 0 15px; text-decoration: none; color: black;">Testimonials</a>
-      <a href="#" style="margin: 0 15px; text-decoration: none; color: black;">Contact</a>
-    </nav>
-    <div>
-      <button style="background-color: #fcb900; padding: 10px 20px; border: none; border-radius: 20px; font-weight: bold;">Buy Now</button>
-      <button style="background-color: #e91e63; color: white; padding: 10px 20px; border: none; border-radius: 20px; margin-left: 10px;">Request a Consult</button>
-    </div>
-  </header>
+ <!-- Main navbar -->
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 20px; font-weight: bold; display: flex; align-items: center; gap: 10px;">
+    <img src="https://static.vecteezy.com/system/resources/previews/000/586/564/original/beauty-butterfly-icon-design-vector.jpg" 
+         alt="Flower Icon" 
+         width="50" 
+         class="butterfly-icon" 
+         style="vertical-align: middle;">
+    BLUSH & BLOOM
+  </div>
+
+  <nav style="flex: 1; text-align: center;">
+    <nav>
+  <a href="#">Home 🏠</a>
+  <a href="#">Blog 📝</a>
+  <a href="#">Page 📄</a>
+  <a href="#">Services ⚙️</a>
+  <a href="#">Testimonials 💬</a>
+  <a href="#">Contact 📞</a>
+  
+</nav>
+
+  </nav>
+
+  <div>
+    <a href="#">Buy Now 🛒</a>
+  <a href="#">Request a Consult 📅</a>
+  </div>
+</header>
+
   <!-- HERO SECTION -->
   <section style="background: url('https://img.freepik.com/free-photo/business-people-shaking-hands-together_53876-104027.jpg') no-repeat center center/cover; padding: 150px 100px; color: black; text-align: center; position: relative;">
     <h4 style="letter-spacing: 4px;">WE ARE STYLE , INSPIRED BY YOU !</h4>
-    <h1 style="font-size: 3rem; margin: 20px 0;">BLUSH AND BLOOM</h1>
+   <h1 class="hero-title">BLUSH & BLOOM</h1>
+
     <p style="max-width: 600px; margin: auto;">At Blush & Bloom, we believe that every woman deserves to feel effortlessly elegant. Our curated collection of accessories — from statement earrings to chic handbags — is designed to add a touch of beauty and confidence to your everyday style. Crafted with love, inspired by you 🌸✨.</p>
     
     <div style="margin-top: 75px;">
-      <button style="background-color: #e91e63; color: white; padding: 12px 25px; border: none; border-radius: 25px; margin-right: 10px;">READ MORE</button>
-      <button style="background-color: #333; color: white; padding: 12px 25px; border: none; border-radius: 25px;">REQUEST A CONSULT</button>
+      <button class="hero-btn pink">READ MORE</button>
+<button class="hero-btn dark">REQUEST A CONSULT</button>
+
     </div>
   </section>
 <!-- HERO SECTION -->
@@ -58,10 +73,33 @@
   <!-- hero content -->
 </section>
 
-<!-- FEATURES STRIP -->
-<section style="display: flex; justify-content: center; gap: 30px; margin: 60px 0; padding: 0 40px;">
-  <!-- features content -->
+<section class="features-section">
+<section style="padding: 30px 40px; max-width: 1000px; margin: auto; text-align: center;">
+  <h2 class="feature-title">Why Shop With Us?</h2>
+
+
+  <div class="feature-boxes">
+    <!-- Gift Wrapping -->
+    <div class="feature-box animate-in">
+      <img src="https://img.freepik.com/premium-photo/gift-wrapping-icon_889461-2045.jpg?w=2000" alt="Gift Wrapping">
+      <h3>🎁 Gift Wrapping</h3>
+      <p>Beautiful wrapping with personal notes for your loved ones.</p>
+    </div>
+    <!-- Fast Delivery -->
+    <div class="feature-box animate-in" style="animation-delay: 0.2s;">
+      <img src="https://static.vecteezy.com/system/resources/previews/021/595/691/non_2x/fast-delivery-truck-icon-lorry-with-quick-delivery-service-fast-product-delivery-design-illustration-free-png.png" alt="Fast Delivery">
+      <h3>🚚 Fast Delivery</h3>
+      <p>Get your accessories delivered in just 2-3 days across India!</p>
+    </div>
+    <!-- Personal Styling -->
+    <div class="feature-box animate-in" style="animation-delay: 0.4s;">
+      <img src="https://cdn-icons-png.flaticon.com/512/3674/3674333.png" alt="Personal Styling">
+      <h3>💃 Personal Styling</h3>
+      <p>Need help choosing? Our stylists are just a message away!</p>
+    </div>
+  </div>
 </section>
+
 
 <!-- ABOUT SECTION -->
 <section style="padding: 30px 40px; max-width: 1000px; margin: auto; text-align: center;">
@@ -71,58 +109,78 @@
   </p>
 </section>
 <!-- FEATURED PRODUCTS -->
-<section style="padding: 60px 40px; max-width: 1200px; margin: auto;">
-  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">Featured Products</h2>
-  
-  <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
+<section class="featured-products">
+  <h2 class="section-title">🌟 Featured Products</h2>
+
+  <div class="product-grid">
     <!-- Elegant Earrings -->
-    <div style="flex: 1 1 250px; border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center;">
-      <img src="https://th.bing.com/th/id/OIP.aKl78eFyCdSqnCm1oD-TWAHaHa?r=0&rs=1&pid=ImgDetMain" alt="Elegant Earrings" style="width: 100%; height: 250px; object-fit: cover; border-radius: 10px;">
-      <h3 style="margin: 15px 0 10px;">Elegant Earrings</h3>
-      <p style="color: #666;">Add sparkle to your look with our handcrafted elegant earrings.</p>
+    <div class="feature-card">
+      <img src="https://th.bing.com/th/id/OIP.aKl78eFyCdSqnCm1oD-TWAHaHa?r=0&rs=1&pid=ImgDetMain" alt="Elegant Earrings">
+      <h3>Elegant Earrings</h3>
+      <p>Add sparkle to your look with our handcrafted elegant earrings.</p>
     </div>
-    
+
     <!-- Chic Handbag -->
-    <div style="flex: 1 1 250px; border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center;">
-      <img src="https://c.ndtvimg.com/2020-10/cb9ukgh8_handbag650_625x300_05_October_20.jpg" alt="Chic Handbag" style="width: 100%; height: 250px; object-fit: cover; border-radius: 10px;">
-      <h3 style="margin: 15px 0 10px;">Chic Handbag</h3>
-      <p style="color: #666;">Carry your essentials in style with our versatile chic handbags.</p>
+    <div class="feature-card">
+      <img src="https://c.ndtvimg.com/2020-10/cb9ukgh8_handbag650_625x300_05_October_20.jpg" alt="Chic Handbag">
+      <h3>Chic Handbag</h3>
+      <p>Carry your essentials in style with our versatile chic handbags.</p>
     </div>
-    
+
     <!-- Stylish Bracelet -->
-    <div style="flex: 1 1 250px; border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center;">
-      <img src="https://www.vummidi.com/blog/wp-content/uploads/2023/06/Leaf-Bracelet-Stylish-Gold-Bracelet-Designs.jpg" alt="Stylish Bracelet" style="width: 100%; height: 250px; object-fit: cover; border-radius: 10px;">
-      <h3 style="margin: 15px 0 10px;">Stylish Bracelet</h3>
-      <p style="color: #666;">Complete your outfit with our unique, stylish bracelets.</p>
+    <div class="feature-card">
+      <img src="https://www.vummidi.com/blog/wp-content/uploads/2023/06/Leaf-Bracelet-Stylish-Gold-Bracelet-Designs.jpg" alt="Stylish Bracelet">
+      <h3>Stylish Bracelet</h3>
+      <p>Complete your outfit with our unique, stylish bracelets.</p>
     </div>
   </div>
 </section>
-<!-- TESTIMONIALS SECTION -->
-<section style="background-color: #fce4ec; padding: 60px 40px; text-align: center;">
-  <h2 style="font-size: 2.5rem; margin-bottom: 40px;">What Our Customers Say</h2>
 
-  <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; max-width: 1000px; margin: auto;">
+
+  <!-- WHAT OUR CUSTOMERS SAY -->
+<section class="testimonials-section" style="padding: 60px 20px; background: #fff0f5; max-width: 1200px; margin: auto;">
+  <h2 class="section-title">What Our Customers Say</h2>
+  <div class="testimonials-container">
     
-    <!-- Testimonial 1 -->
-    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); flex: 1 1 250px;">
-      <p style="font-style: italic; color: #555;">“Absolutely love the earrings I bought! Great quality and so stylish. Will definitely shop again!”</p>
-      <h4 style="margin-top: 15px; color: #e91e63;">– Priya S.</h4>
+    <div class="testimonial-card">
+      <div class="customer-photo">
+        <img src="https://th.bing.com/th/id/OIP.lMWHPInl1X-e3kZhnfoq9wAAAA?r=0&rs=1&pid=ImgDetMain" alt="Customer 1">
+      </div>
+      <p class="testimonial-text">“The elegant earrings I bought from Blush & Bloom completely transformed my look! So classy and lightweight.”</p>
+      <h4 class="customer-name">- Priya S.</h4>
     </div>
-
-    <!-- Testimonial 2 -->
-    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); flex: 1 1 250px;">
-      <p style="font-style: italic; color: #555;">“Blush and Bloom has the cutest bags ever! So elegant and perfect for daily wear.”</p>
-      <h4 style="margin-top: 15px; color: #e91e63;">– Ananya R.</h4>
+    
+    <div class="testimonial-card">
+      <div class="customer-photo">
+        <img src="https://wallpapercave.com/wp/wp5977364.jpg" alt="Customer 2">
+      </div>
+      <p class="testimonial-text">“The fast delivery and personal styling advice made shopping so easy. Loved the chic handbags!”</p>
+      <h4 class="customer-name">- Rahul K.</h4>
     </div>
-
-    <!-- Testimonial 3 -->
-    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); flex: 1 1 250px;">
-      <p style="font-style: italic; color: #555;">“I bought a bracelet for my sister’s birthday, and she loved it! Packaging was lovely too.”</p>
-      <h4 style="margin-top: 15px; color: #e91e63;">– Sneha M.</h4>
+    
+    <div class="testimonial-card">
+      <div class="customer-photo">
+        <img src="https://th.bing.com/th/id/OIP.YouFaQTa7ihh8JXT7MDpLAAAAA?r=0&rs=1&pid=ImgDetMain" alt="Customer 3">
+      </div>
+      <p class="testimonial-text">“Stylish bracelets that match every outfit. The quality is superb, highly recommend Blush & Bloom.”</p>
+      <h4 class="customer-name">- Ananya R.</h4>
     </div>
+    
+    <!-- Add more testimonial cards as needed -->
 
   </div>
 </section>
+<section class="newsletter-section">
+  <h2>Join the Bloom Club 🌸</h2>
+  <p>Subscribe for exclusive offers & get 10% OFF your first order!</p>
+  <form class="newsletter-form">
+    <input type="email" placeholder="Enter your email" aria-label="Email" required />
+    <button type="submit">Sign Me Up ✨</button>
+  </form>
+  <small>Join 500+ bloomers and counting!</small>
+</section>
+
+
 <!-- CONTACT INFO SECTION -->
 <section style="padding: 60px 40px; background-color: #fce4ec; text-align: center;">
   <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Get in Touch</h2>
@@ -148,6 +206,7 @@
 
 
 
+
 <!-- FOOTER SECTION -->
 <footer style="background-color: #333; color: white; padding: 30px 20px; text-align: center;">
   <p style="margin: 0; font-size: 1rem;">&copy; 2025 Blush & Bloom. All Rights Reserved.</p>
@@ -158,4 +217,3 @@
 
 </body>
 </html>
-
