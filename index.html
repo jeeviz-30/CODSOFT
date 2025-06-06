@@ -1,263 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Google Font for Creative Typography -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chippy's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<!-- Add this in your <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <!-- Top contact and social -->
-  <div style="background: linear-gradient(to right, #fc466b, #3f5efb); color: white; padding: 10px 40px; font-size: 14px; display: flex; justify-content: space-between; align-items: center;">
-    <div>
-      <i class="fa fa-phone"></i> +1 123-456-7890 &nbsp;
-      <i class="fa fa-envelope"></i> jeevithapunithan21@gmail.com
-    </div>
-    <div>
-      <i class="fab fa-facebook-f"></i> &nbsp;
-      <i class="fab fa-twitter"></i> &nbsp;
-      <i class="fab fa-instagram"></i> &nbsp;
-      <i class="fab fa-linkedin-in"></i>
-    </div>
-  </div>
-
- <!-- Main navbar -->
-<header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 20px; font-weight: bold; display: flex; align-items: center; gap: 10px;">
-    <img src="https://static.vecteezy.com/system/resources/previews/000/586/564/original/beauty-butterfly-icon-design-vector.jpg" 
-         alt="Flower Icon" 
-         width="50" 
-         class="butterfly-icon" 
-         style="vertical-align: middle;">
-    BLUSH & BLOOM
-  </div>
-
-  <nav style="flex: 1; text-align: center;">
-    <nav>
-  <a href="#">Home 🏠</a>
-  <a href="#">Blog 📝</a>
-  <a href="#">Page 📄</a>
-  <a href="#">Services ⚙️</a>
-  <a href="#">Testimonials 💬</a>
-  <a href="#">Contact 📞</a>
-  
-</nav>
-
-  </nav>
-
-  <div>
-    <a href="#">Buy Now 🛒</a>
-  <a href="#">Request a Consult 📅</a>
+<header class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo"><i class="fa-solid fa-sparkles"></i> ✿ Jeevitha</div>
+    <nav class="nav-links">
+      <a href="#hero"><i class="fas fa-home"></i> Home</a>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a>
+      <a href="#projects"><i class="fas fa-lightbulb"></i> Projects</a>
+      <a href="#resume"><i class="fas fa-file"></i> Resume</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
   </div>
 </header>
 
- <section class="hero-section">
-  <div class="hero-content">
-    <h4 class="hero-subtitle">WE ARE STYLE, INSPIRED BY YOU!</h4>
-    <h1 class="hero-title">BLUSH & BLOOM</h1>
-    <p class="hero-description">
-      At Blush & Bloom, we believe every woman deserves to feel effortlessly elegant. Our curated collection of accessories — from statement earrings to chic handbags — is designed to add a touch of beauty and confidence to your everyday style. Crafted with love, inspired by you 🌸✨.
+
+
+  <!-- Header -->
+  <header class="main-header">
+  <div class="header-content">
+    <h1>
+      ◦•●◉✿ <span class="gradient-name">JEEVITHA</span> ✿◉●•◦
+      <img src="https://img.icons8.com/?size=100&id=Le7iU7FQp7DF&format=png&color=000000" alt="Butterfly" class="butterfly-icon">
+      <span class="sparkle">✨</span>
+    </h1>
+    <p class="glow-line">Web Developer 💻 | Dream Builder ✨ | CSS Queen 🎀</p>
+    <p class="glow-line">CSBS Student 💼 | Innovating @ Panimalar Engineering College 🏫</p>
+  </div>
+
+  <!-- About -->
+  <section class="about">
+  <img src="https://github.com/jeeviz-30/CODSOFT/blob/main/Photo.jpg" alt="My Picture">
+  <div>
+    <h2>About Me 💁‍♀</h2>
+    <p>
+      Hey there! I’m <strong>◦•●◉✿ JEEVITHA ✿◉●•◦</strong>, a passionate 🌟 Web Development intern who loves crafting ✨ beautiful and responsive websites using just HTML & CSS. <br><br>
+      I believe in making the web a more stylish, accessible, and sparkly place 💖. Whether it’s a landing page, a personal portfolio, or a creative web idea, I’m always up for the challenge 💪🎨.
+      <br><br>
+      When I’m not coding, you can find me ☕ sipping coffee, 🎧 vibing to music, or ✍ sketching UI ideas in my notebook!
     </p>
-    <div class="hero-buttons">
-      <button class="hero-btn pink">READ MORE</button>
-<button class="hero-btn dark">REQUEST A CONSULT</button>
-<!-- Floating Decorative Icons -->
-<div class="floating-icons">
-  <span class="icon">✨</span>
-  <span class="icon">🌸</span>
-  <span class="icon">💖</span>
-  <span class="icon">💎</span>
-  <span class="icon">🌟</span>
-<span class="icon">🎀</span>
-  <span class="icon">👛</span>
-  <span class="icon">👠</span>
-  <span class="icon">🛍️</span>
-  <span class="icon">💅</span>
+  </div>
+</section>
+<!-- Intro Animation & Themed Wrapper -->
+<div class="intro-wrapper">
+  <div class="intro-text">
+    <h1>Welcome to Jeevitha's World</h1>
+    <p>Your creative web developer & dream builder 💖</p>
+  </div>
 </div>
 
-    </div>
-  </div>
+<!-- Card of Destiny Widget -->
+<section class="card-destiny">
+  <h2>🌟 Your Card of Destiny 🌟</h2>
+  
+  <!-- Use checkbox hack for flip -->
+  <input type="checkbox" id="card-toggle" class="card-toggle" />
+  <label for="card-toggle" class="card" tabindex="0" role="button" aria-pressed="false" aria-label="Reveal your destiny card">
+    <div class="card-front">✨ Click or tap to reveal your destiny! ✨</div>
+    <div class="card-back">Your creativity will light the world! 💫</div>
+  </label>
+  
 </section>
 
-<!-- HERO SECTION -->
-<section style="background: url('...') no-repeat center center/cover; padding: 100px 40px; color: white; text-align: center; position: relative;">
-  <!-- hero content -->
+<!-- Quote Section -->
+<section class="quote-section">
+  <blockquote>
+    "Creativity is intelligence having fun." — Albert Einstein
+  </blockquote>
 </section>
 
-<section class="features-section">
-<section style="padding: 30px 40px; max-width: 1000px; margin: auto; text-align: center;">
-  <h2 class="feature-title">Why Shop With Us?</h2>
+  <!-- Skills -->
+ <section class="skills">
+  <h2>Skills 🚀</h2>
+  <ul>
+    <li><span class="skill-name">🌐 HTML5</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">🎨 CSS3</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">📱 Responsive Web Design</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">✨ CSS Animations</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">💻 Git & GitHub</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">📂 VS Code</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">🔒 Cyber Security Basics</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">💡 UI/UX Design Sense</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+    <li><span class="skill-name">🌈 Creative Design Thinking</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
 
+    <li><span class="skill-name">🧩 C Programming</span> <span class="badge intermediate" title="Getting confident! 💪">Intermediate</span></li>
 
-  <div class="feature-boxes">
-    <!-- Gift Wrapping -->
-    <div class="feature-box animate-in">
-      <img src="https://img.freepik.com/premium-photo/gift-wrapping-icon_889461-2045.jpg?w=2000" alt="Gift Wrapping">
-      <h3>🎁 Gift Wrapping</h3>
-      <p>Beautiful wrapping with personal notes for your loved ones.</p>
-    </div>
-    <!-- Fast Delivery -->
-    <div class="feature-box animate-in" style="animation-delay: 0.2s;">
-      <img src="https://static.vecteezy.com/system/resources/previews/021/595/691/non_2x/fast-delivery-truck-icon-lorry-with-quick-delivery-service-fast-product-delivery-design-illustration-free-png.png" alt="Fast Delivery">
-      <h3>🚚 Fast Delivery</h3>
-      <p>Get your accessories delivered in just 2-3 days across India!</p>
-    </div>
-    <!-- Personal Styling -->
-    <div class="feature-box animate-in" style="animation-delay: 0.4s;">
-      <img src="https://cdn-icons-png.flaticon.com/512/3674/3674333.png" alt="Personal Styling">
-      <h3>💃 Personal Styling</h3>
-      <p>Need help choosing? Our stylists are just a message away!</p>
-    </div>
-  </div>
+    <li><span class="skill-name">📊 DBMS Concepts</span> <span class="badge beginner" title="Just getting started! 🌱">Beginner</span></li>
+
+    <li><span class="skill-name">🧮 SQL Developer</span> <span class="badge advanced" title="Totally owning it! 🔥">Advanced</span></li>
+    <li><span class="skill-name">🧠 Introduction to AI</span> <span class="badge advanced" title="Totally owning it! 🔥">Advanced</span></li>
+    <li><span class="skill-name">⚙ Data Structures</span> <span class="badge advanced" title="Totally owning it! 🔥">Advanced</span></li>
+    <li><span class="skill-name">🐍 Python Programming</span> <span class="badge advanced" title="Totally owning it! 🔥">Advanced</span></li>
+  </ul>
 </section>
 
-<!-- ABOUT US SECTION -->
-<section class="about-section">
-  <div class="about-content">
-    <div class="about-image">
-      <img src="https://img.freepik.com/premium-photo/beautiful-women-s-accessories-flat-lay-pink-background_102872-1727.jpg" alt="Blush and Bloom Accessories">
-      <div class="sparkle-overlay"></div>
-    </div>
-    <div class="about-text">
-      <h2>About <span>Blush & Bloom</span></h2>
-      <p>
-        Accessories are not just add-ons — they are the final flourish that expresses who you are.
-        At <strong>Blush & Bloom</strong>, we bring together charm, class, and creativity in every piece.
-        Our curated collections of earrings, handbags, and bracelets help you tell your unique story through style.
-      </p>
-      <p>
-        We believe that fashion should be both beautiful and empowering. That's why we handpick designs
-        that reflect modern femininity, timeless elegance, and bold individuality.
-      </p>
-      <blockquote>
-        “Fashion is the armor to survive the reality of everyday life.” — Bill Cunningham
-      </blockquote>
-      <blockquote>
-        “Style is a way to say who you are without having to speak.” — Rachel Zoe
-      </blockquote>
-      <div class="founder-badge">
-        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Founder Icon">
-        <p>Founded with 💕 by women, for women.</p>
+  <!-- Projects -->
+<section class="projects fancy-section">
+  <h2 class="animated-heading">Projects 🚀</h2>
+  <div class="project-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3>✨ Portfolio Website</h3>
+          <p>HTML, CSS</p>
+        </div>
+        <div class="card-back">
+          <p>A personal portfolio with animations, glowing text, and sparkle effects showcasing my skills and internships.</p>
+          <span class="badge project-badge">Live</span>
+        </div>
       </div>
     </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3>🛍 Blush & Bloom</h3>
+          <p>HTML, CSS Only</p>
+        </div>
+        <div class="card-back">
+          <p>A cute accessories landing page with pink sparkle skies, responsive layout, and hover magic 💖</p>
+          <span class="badge project-badge">In Progress</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <h3>🔐 CyberSecurity</h3>
+          <p>Security Concepts</p>
+        </div>
+        <div class="card-back">
+          <p>Learned ethical hacking basics during CodAlpha internship – focused on real-world security threats.</p>
+          <span class="badge project-badge">Internship</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
-<!-- FEATURED PRODUCTS -->
-<section class="featured-products">
-  <h2 class="section-title">🌟 Featured Products</h2>
 
-  <div class="product-grid">
-    <!-- Elegant Earrings -->
-    <div class="feature-card">
-      <img src="https://th.bing.com/th/id/OIP.aKl78eFyCdSqnCm1oD-TWAHaHa?r=0&rs=1&pid=ImgDetMain" alt="Elegant Earrings">
-      <h3>Elegant Earrings</h3>
-      <p>Add sparkle to your look with our handcrafted elegant earrings.</p>
-    </div>
-
-    <!-- Chic Handbag -->
-    <div class="feature-card">
-      <img src="https://c.ndtvimg.com/2020-10/cb9ukgh8_handbag650_625x300_05_October_20.jpg" alt="Chic Handbag">
-      <h3>Chic Handbag</h3>
-      <p>Carry your essentials in style with our versatile chic handbags.</p>
-    </div>
-
-    <!-- Stylish Bracelet -->
-    <div class="feature-card">
-      <img src="https://www.vummidi.com/blog/wp-content/uploads/2023/06/Leaf-Bracelet-Stylish-Gold-Bracelet-Designs.jpg" alt="Stylish Bracelet">
-      <h3>Stylish Bracelet</h3>
-      <p>Complete your outfit with our unique, stylish bracelets.</p>
-    </div>
-  </div>
-</section>
-
-
-  <!-- WHAT OUR CUSTOMERS SAY -->
-<section class="testimonials-section" style="padding: 60px 20px; background: #fff0f5; max-width: 1200px; margin: auto;">
-  <h2 class="section-title">What Our Customers Say</h2>
-  <div class="testimonials-container">
+<!-- Internships -->
+<section class="internships fade-in-section">
+  <h2>Internships 💼</h2>
+  <div class="internship-list">
     
-    <div class="testimonial-card">
-      <div class="customer-photo">
-        <img src="https://th.bing.com/th/id/OIP.lMWHPInl1X-e3kZhnfoq9wAAAA?r=0&rs=1&pid=ImgDetMain" alt="Customer 1">
-      </div>
-      <p class="testimonial-text">“The elegant earrings I bought from Blush & Bloom completely transformed my look! So classy and lightweight.”</p>
-      <h4 class="customer-name">- Priya S.</h4>
+    <div class="internship-card">
+      <h3>🌐 Web Development Intern</h3>
+      <p><strong>CodSoft</strong> <span class="badge ongoing">Ongoing</span></p>
+      <p>Currently building creative landing pages and portfolios using HTML and CSS.</p>
     </div>
     
-    <div class="testimonial-card">
-      <div class="customer-photo">
-        <img src="https://wallpapercave.com/wp/wp5977364.jpg" alt="Customer 2">
-      </div>
-      <p class="testimonial-text">“The fast delivery and personal styling advice made shopping so easy. Loved the chic handbags!”</p>
-      <h4 class="customer-name">- Rahul K.</h4>
+    <div class="internship-card">
+      <h3>🛡 Cyber Security Intern</h3>
+      <p><strong>CodAlpha</strong> <span class="badge ongoing">Ongoing</span></p>
+      <p>Exploring the world of ethical hacking and digital protection strategies.</p>
     </div>
-    
-    <div class="testimonial-card">
-      <div class="customer-photo">
-        <img src="https://th.bing.com/th/id/OIP.YouFaQTa7ihh8JXT7MDpLAAAAA?r=0&rs=1&pid=ImgDetMain" alt="Customer 3">
-      </div>
-      <p class="testimonial-text">“Stylish bracelets that match every outfit. The quality is superb, highly recommend Blush & Bloom.”</p>
-      <h4 class="customer-name">- Ananya R.</h4>
-    </div>
-    
-    <!-- Add more testimonial cards as needed -->
 
   </div>
 </section>
-<section class="newsletter-section">
-  <h2>Join the Bloom Club 🌸</h2>
-  <p>Subscribe for exclusive offers & get 10% OFF your first order!</p>
-  <form class="newsletter-form">
-    <input type="email" placeholder="Enter your email" aria-label="Email" required />
-    <button type="submit">Sign Me Up ✨</button>
-  </form>
-  <small>Join 500+ bloomers and counting!</small>
-</section>
 
-<section class="contact-section">
-  <div class="contact-container">
-    <h2>Get in <span>Touch</span></h2>
-    <p>We’d love to hear from you! Whether you have questions, suggestions, or just want to say hello, reach out anytime.</p>
 
-    <form class="contact-form">
-      <div class="input-group">
-        <input type="text" id="name" name="name" required autocomplete="off" />
-        <label for="name">Your Name</label>
-      </div>
-      <div class="input-group">
-        <input type="email" id="email" name="email" required autocomplete="off" />
-        <label for="email">Your Email</label>
-      </div>
-      <div class="input-group">
-        <textarea id="message" name="message" rows="5" required></textarea>
-        <label for="message">Your Message</label>
-      </div>
-      <button type="submit" class="btn-contact">Send Message</button>
-    </form>
+ <section class="resume-section">
+  <h2>My Resume</h2>
+  
+  <!-- Download Resume Button -->
+  <div class="resume-actions">
+    <a href="resume.pdf" download class="btn-download">Download Resume (PDF)</a>
+  </div>
 
-    <div class="contact-info">
-      <div><strong>📍 Address:</strong> 123 Bloom Street, Fashion City</div>
-      <div><strong>📞 Phone:</strong> +91 98765 43210</div>
-      <div><strong>✉️ Email:</strong> hello@blushandbloom.com</div>
+  <div class="resume-timeline">
+    <div class="timeline-item">
+      <div class="timeline-date">2025 - Present</div>
+      <div class="timeline-content">
+        <h3>Web Development Intern <span class="badge internship">Internship</span></h3>
+        <p><strong>CodSoft</strong> — Worked on front-end projects with HTML, CSS, and JS.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2025 - Present</div>
+      <div class="timeline-content">
+        <h3>Cyber Security Intern <span class="badge internship">Internship</span></h3>
+        <p><strong>Code Alpha</strong> — Gaining experience in cybersecurity fundamentals and practices.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2024 - 2028</div>
+      <div class="timeline-content">
+        <h3>B.Tech in CSBS <span class="badge education">Education</span></h3>
+        <p>Panimalar Engineering College — Specialized in computer science and business systems.</p>
+      </div>
     </div>
   </div>
 </section>
 
 
+  <section class="contact">
+  <div class="contact-icon-wrapper">
+    <img src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png" alt="Contact Icon" class="contact-icon">
+  </div>
+  <h2>Contact Me</h2>
+
+  <ul class="contact-list">
+    <li>
+      <strong>Name:</strong> Jeevitha Punithan
+    </li>
+    <li>
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="icon">
+      <a href="mailto:jeevithapunithan21@email.com">jeevithapunithan21@email.com</a>
+    </li>
+    <li>
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="icon">
+      <a href="https://www.linkedin.com/in/Jeevitha Punithan" target="_blank">linkedin.com/in/Jeevitha Punithan</a>
+    </li>
+    <li>
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="icon">
+      <a href="https://github.com/jeeviz-30" target="_blank">github.com/jeeviz-30</a>
+    </li>
+  </ul>
+</section>
 
 
-<!-- FOOTER SECTION -->
-<footer style="background-color: #333; color: white; padding: 30px 20px; text-align: center;">
-  <p style="margin: 0; font-size: 1rem;">&copy; 2025 Blush & Bloom. All Rights Reserved.</p>
-  <p style="margin-top: 8px; font-size: 0.9rem;">Crafted with 💖 by Jeevitha Punithan</p>
-</footer>
-
-
+  <section class="photo-footer">
+  <p class="credits">© 2025  Made by JEEVITHA . All rights reserved</p>
+  <div class="social-icons">
+    <a href="https://linkedin.com/in/Jeevitha Punithan" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/jeeviz-30" target="_blank" aria-label="GitHub" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="mailto:jeevithapunithan21@gmail.com" aria-label="Email" title="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://instagram.com/_jeevixie_" target="_blank" aria-label="Instagram" title="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+</section>
 
 </body>
 </html>
+
+
